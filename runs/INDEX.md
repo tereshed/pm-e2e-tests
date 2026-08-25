@@ -20,3 +20,4 @@
 - [E2E прогон 4865cfc (gh-32814012900-1)](2026-08-25-gh-32814012900-1.md) — revision `4865cfc`, вердикт GO
 - [E2E прогон d673e15 (gh-32818039206-1)](2026-08-25-gh-32818039206-1.md) — revision `d673e15`, tier2 (kind: agent) 5 passed / 1 skipped (scout выключен), 12 tier-1/api сценариев из постановки вне мандата раннера (status: planned). Смержен как осиротевший отчёт первым шагом прогона gh-32823241177-1 — не попал в летопись вовремя.
 - [E2E прогон 1a2c6b6 (gh-32823241177-1)](2026-08-25-gh-32823241177-1.md) — revision `1a2c6b6`, вердикт GO, tier1 41/0/3, tier2: SBX-01/ORCH-01/TASK-04/TASK-07/CHAT-02 passed, CHAT-03 skipped (scout disabled)
+- [E2E прогон d98b35e (gh-32849605087-1)](2026-08-25-gh-32849605087-1.md) — revision `d98b35e`, вердикт GO, tier1 41/0/3, tier2: SBX-01/ORCH-01(+контроль)/TASK-04(+external_ref dedup)/TASK-07/CHAT-02 passed, CHAT-03 skipped (scout disabled); найден баг PR-гейта на ветках делегированных подзадач (TASK-07), задача не пострадала
